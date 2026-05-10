@@ -1,0 +1,39 @@
+# HRR Prediction Model Configuration
+
+# Dataset paths
+data_dir: "C:\\Fatigue HRR pre\\Final_Combined_Dataset"
+output_dir: "./outputs"
+
+# Feature columns
+dynamic_cols:
+  - "Global_SampEn"
+  - "Global_RMS"
+  - "Mag_Var"
+  - "V1_range"
+  - "V2_std"
+  - "V3_range"
+
+exercise_modes:
+  HIIT: 0
+  LV-HIIT: 1
+  MICT: 2
+
+# Model architecture
+model:
+  d_model: 64
+  nhead: 8
+  num_transformer_layers: 2
+  dropout: 0.1
+
+# Training
+training:
+  epochs: 20
+  batch_size: 64
+  lr: 0.001
+  weight_decay: 0.001
+  n_splits: 5
+  seq_len: 15
+  seed: 42
+
+# Device: auto | cpu | cuda
+device: "auto"
