@@ -133,10 +133,6 @@ The following videos demonstrate the **Kinematics to Physiology Digital Twin Mod
 
 The experiment protocol was approved by the Academic Ethics Committee of Sichuan Agricultural University (Approval No: H20250017) and conducted in accordance with the Declaration of Helsinki. All participants provided written informed consent prior to participation.
 
-## Contact
-
-For questions, collaboration requests, or data inquiries, please contact:
-📧 **Rui Deng** - dengrui1@stu.sicau.edu.cn
 
 ## License
 
