@@ -90,9 +90,6 @@ python evaluate.py --model_path ./outputs/fold_1/best_model.pt --data_dir "/path
 python predict.py --model_path ./outputs/fold_1/best_model.pt --dynamic x_dyn.npy --static x_stat.npy
 ```
 
-## K2P Twin: Kinematics to Physiology Digital Twin Model
-
-This repository implements the HRR prediction module integrated with the **Kinematics to Physiology Digital Twin Model (K2P Twin)**.
 
 ## Sample Data
 
