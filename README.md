@@ -143,6 +143,3 @@ MIT License
 For questions, collaboration requests, or data inquiries, please contact:
 📧 **Rui Deng** - dengrui1@stu.sicau.edu.cn
 
-## License
-
-MIT License
